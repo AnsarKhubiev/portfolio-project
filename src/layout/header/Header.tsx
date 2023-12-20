@@ -7,7 +7,7 @@ export const Header = () => {
     return (
         <StyledHeader>
             <Logo />
-            <Menu />
+            <Menu menuItems={items}/>
         </StyledHeader>
     );
 };
@@ -18,3 +18,7 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
 `
+
+const items = [
+    "Home", "Skills", "Works", "Testimony", "Contact"
+]
