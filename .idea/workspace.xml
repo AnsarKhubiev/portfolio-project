@@ -4,39 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dee7b07-608b-4ea9-a831-ade17a1f4558" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    <list default="true" id="7dee7b07-608b-4ea9-a831-ade17a1f4558" name="Changes" comment="добавлены новые секции в структуру">
+      <change afterPath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/darkModeToggle/DarkModeToggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navBar/navBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/personInfo/PersonInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/priceCard/PriceCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/progressBlock/ProgressBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/progressBlockList/ProgressBlockList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sectionTitle/SectionTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/serviceCard/ServiceCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skillsList/SkillsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/Rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/Slide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/socialLinks/SocialLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/titleH3/titleH3.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/workEduTimeline/WorkEduTimeline.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/workImg/WorkImg.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/asides/AsideNav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/asides/AsideProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/blog/PostCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/prices/Prices.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/avatar.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/avatar.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icon-sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/proj-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/proj-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexWrapper.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionTitle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icon/Icon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo/Logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/contact/Contact.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/work/Work.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,9 +58,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aUhWXHuUDxp5BRnChl0fbrSny0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,17 +73,24 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "ts.external.directory.path": "D:\\IT\\it-incubator\\html-css-for-react\\portfolio-project\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\public" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\slider" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\serviceCard" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\asides" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\menu" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\darkModeToggle" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,11 +101,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704379096843</updated>
-      <workItem from="1704379098129" duration="5008000" />
+      <workItem from="1704379098129" duration="6376000" />
+      <workItem from="1704453796429" duration="14571000" />
+      <workItem from="1704475024414" duration="15643000" />
+      <workItem from="1704536341068" duration="28097000" />
+      <workItem from="1704575658517" duration="2134000" />
+      <workItem from="1704613092667" duration="130000" />
+      <workItem from="1704613233629" duration="27234000" />
     </task>
+    <task id="LOCAL-00001" summary="подготовка нового порфолио">
+      <option name="closed" value="true" />
+      <created>1704391331041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704391331041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="подготовка нового порфолио">
+      <option name="closed" value="true" />
+      <created>1704391395432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704391395432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="подготовка нового порфолио" />
+    <MESSAGE value="добавлены новые секции в структуру" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены новые секции в структуру" />
   </component>
 </project>
