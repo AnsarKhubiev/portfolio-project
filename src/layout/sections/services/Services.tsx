@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../../components/sectionTitle/SectionTitle";
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import {ServiceCard} from "../../../components/serviceCard/ServiceCard";
+import {ServiceCard} from "./ServiceCard";
 import {TitleH3} from "../../../components/titleH3/titleH3";
 import {Icon} from "../../../components/icon/Icon";
 

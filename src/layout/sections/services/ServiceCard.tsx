@@ -1,8 +1,8 @@
 import React from 'react';
-import {TitleH3} from "../titleH3/titleH3";
-import {Icon} from "../icon/Icon";
+import {TitleH3} from "../../../components/titleH3/titleH3";
+import {Icon} from "../../../components/icon/Icon";
 import styled from "styled-components";
-import {FlexWrapper} from "../FlexWrapper";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
 type ServiceCardPropsType = {
     title: string,

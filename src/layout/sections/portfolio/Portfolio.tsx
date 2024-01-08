@@ -2,7 +2,7 @@ import React from 'react';
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../../../components/sectionTitle/SectionTitle";
 import styled from "styled-components";
-import {Menu} from "../../../components/menu/Menu";
+import {Menu} from "./Menu";
 import {WorkImg} from "../../../components/workImg/WorkImg";
 import work1 from '../../../assets/images/work1.webp'
 import work2 from '../../../assets/images/work2.webp'
@@ -16,11 +16,11 @@ import work9 from '../../../assets/images/work9.webp'
 
 
 const items = [
-    {title: 'All categories', url: '#', selected: true},
-    {title: 'UI Design', url: '#', selected: false},
-    {title: 'Web Templates', url: '#', selected: false},
-    {title: 'Logo', url: '#', selected: false},
-    {title: 'Branding', url: '#', selected: false}
+    {title: 'All categories', link: '#', textColor: '#FFB400'},
+    {title: 'UI Design', link: '#', textColor: '#2B2B2B'},
+    {title: 'Web Templates', link: '#', textColor: '#2B2B2B'},
+    {title: 'Logo', link: '#', textColor: '#2B2B2B'},
+    {title: 'Branding', link: '#', textColor: '#2B2B2B'}
 ]
 
 const works = [
@@ -42,8 +42,10 @@ export const Portfolio = () => {
             <FlexWrapper direction={'column'} align={'center'}>
 
                 <SectionTitle title={'Portfolio'}/>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. lorem ipsum</p>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. lorem ipsum
+                </p>
                 <Menu menuItems={items}/>
 
                 <FlexWrapper wrap={'wrap'} justify={'space-between'}>
@@ -56,6 +58,5 @@ export const Portfolio = () => {
 };
 
 const StyledPortfolio = styled.section`
-  min-height: 100vh;
   background-color: #8f9db7;
 `

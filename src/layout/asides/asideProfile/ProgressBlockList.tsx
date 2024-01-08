@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
-import {TitleH3} from "../titleH3/titleH3";
-import {ProgressBlock} from "../progressBlock/ProgressBlock";
+import {TitleH3} from "../../../components/titleH3/titleH3";
+import {ProgressBlock} from "./ProgressBlock";
 
 type ProgressBlockListPropsType = {
     title: string,

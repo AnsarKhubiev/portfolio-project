@@ -2,30 +2,36 @@ import React from 'react';
 import styled from "styled-components";
 import {WorkImg} from "../../../components/workImg/WorkImg";
 import {TitleH3} from "../../../components/titleH3/titleH3";
-import {Icon} from "../../../components/icon/Icon";
+import {LinkButton} from "../../../components/linkButton/LinkButton";
 
 type PostCardPropsType = {
-    src: string,
-    alt: string,
+    link: string,
+    imgSrc: string,
+    imgAlt: string,
     title: string,
-    text: string
+    description: string,
+
 }
 
 export const PostCard = (props: PostCardPropsType) => {
     return (
         <StyledPostCard>
-            <WorkImg src={props.src} alt={props.alt}/>
+            <WorkImg src={props.imgSrc} alt={props.imgAlt}/>
             <TitleH3 title={props.title}/>
-            <p>{props.text}</p>
-            <a href="#">
-                Learn more
-                <Icon
-                    iconId={'GreaterThanSign'}
-                    width={'20'}
-                    height={'20'}
-                    viewBox={'20'}
-                />
-            </a>
+            <p>{props.description}</p>
+
+            <LinkButton
+                link={props.link}
+                text={'Learn more'}
+                iconId={'GreaterThanSign'}
+                iconWidth={'20'}
+                iconHeight={'20'}
+                iconViewBox={'0 0 20 20'}
+                btnColor={'transparent'}
+                align={'center'}
+                textColor={'#FFB400'}
+
+            />
 
         </StyledPostCard>
     );

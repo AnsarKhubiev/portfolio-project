@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from "styled-components";
-import photo from '../../assets/images/avatar.webp'
-import {TitleH3} from "../../components/titleH3/titleH3";
-import {SocialLinks} from "../../components/socialLinks/SocialLinks";
-import {PersonInfo} from "../../components/personInfo/PersonInfo";
-import {ProgressBlockList} from "../../components/progressBlockList/ProgressBlockList";
-import {SkillsList} from "../../components/skillsList/SkillsList";
-import {Icon} from "../../components/icon/Icon";
+import photo from '../../../assets/images/avatar.webp'
+import {TitleH3} from "../../../components/titleH3/titleH3";
+import {SocialLinks} from "./SocialLinks";
+import {PersonInfo} from "./PersonInfo";
+import {ProgressBlockList} from "./ProgressBlockList";
+import {SkillsList} from "./SkillsList";
+import {Icon} from "../../../components/icon/Icon";
+import {Button} from "../../../components/button/Button";
 
 export const AsideProfile = () => {
     return (
@@ -47,10 +48,19 @@ export const AsideProfile = () => {
                 ]}
             />
 
-            <DownloadBtn href="#">
-                download cv
-                <Icon iconId={'download'} width={'14'} height={'17'} viewBox={'0 0 14 17'} />
-            </DownloadBtn>
+            <Button
+                btnColor={'#FFB400'}
+                type={'button'}
+                text={'download'}
+                iconId={'download'}
+                iconWidth={'14'}
+                iconHeight={'17'}
+                iconViewBox={'0 0 14 17'}
+                btnWidth={'220px'}
+                justify={'center'}
+                gap={'19px'}
+                padding={'0 40px'}
+            />
 
         </StyledAsideProfile>
     );
@@ -58,7 +68,6 @@ export const AsideProfile = () => {
 
 
 const StyledAsideProfile = styled.aside`
-  width: 375px;
   height: 1315px;
   background-color: #c5edf6;
 `
@@ -70,10 +79,4 @@ const Avatar = styled.div`
   background-image: url(${photo});
   background-color: lightgray;
   background-size: cover;
-`
-
-const DownloadBtn = styled.a`
-  background-color: #FFB400;
-  width: 220px;
-  height: 40px;
 `

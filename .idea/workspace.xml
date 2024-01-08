@@ -5,40 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dee7b07-608b-4ea9-a831-ade17a1f4558" name="Changes" comment="добавлены новые секции в структуру">
-      <change afterPath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/darkModeToggle/DarkModeToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navBar/navBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/personInfo/PersonInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/priceCard/PriceCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/progressBlock/ProgressBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/progressBlockList/ProgressBlockList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sectionTitle/SectionTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/serviceCard/ServiceCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skillsList/SkillsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Rating.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slide.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/socialLinks/SocialLinks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/titleH3/titleH3.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/workEduTimeline/WorkEduTimeline.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/workImg/WorkImg.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/asides/AsideNav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/asides/AsideProfile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/blog/PostCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/prices/Prices.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/linkButton/LinkButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/asides/asideNav/AsideNav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/asides/asideNav/navBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/SocialLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/contact/ContactInfoCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/map/Map.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons-sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/darkModeToggle/DarkModeToggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navBar/navBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/personInfo/PersonInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/PersonInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/priceCard/PriceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/prices/PriceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/progressBlock/ProgressBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/ProgressBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/progressBlockList/ProgressBlockList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/ProgressBlockList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/serviceCard/ServiceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/ServiceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skillsList/SkillsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/SkillsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/socialLinks/SocialLinks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/asides/AsideNav.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/asides/AsideProfile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/asides/asideProfile/AsideProfile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/PostCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/prices/Prices.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/prices/Prices.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,31 +66,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.folding",
-    "ts.external.directory.path": "D:\\IT\\it-incubator\\html-css-for-react\\portfolio-project\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IT\\it-incubator\\html-css-for-react\\portfolio-project\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\slider" />
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\serviceCard" />
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\asides" />
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\menu" />
-      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\components\darkModeToggle" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\asides\asideProfile" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\sections\services" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\asides\asideProfile\progressBlockList" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\sections\prices" />
+      <recent name="D:\IT\it-incubator\html-css-for-react\portfolio-project\src\layout\sections\portfolio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +107,9 @@
       <workItem from="1704536341068" duration="28097000" />
       <workItem from="1704575658517" duration="2134000" />
       <workItem from="1704613092667" duration="130000" />
-      <workItem from="1704613233629" duration="27234000" />
+      <workItem from="1704613233629" duration="27267000" />
+      <workItem from="1704704285163" duration="71000" />
+      <workItem from="1704704364447" duration="40128000" />
     </task>
     <task id="LOCAL-00001" summary="подготовка нового порфолио">
       <option name="closed" value="true" />
@@ -125,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704391395432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлены новые секции в структуру">
+      <option name="closed" value="true" />
+      <created>1704651801935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704651801935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

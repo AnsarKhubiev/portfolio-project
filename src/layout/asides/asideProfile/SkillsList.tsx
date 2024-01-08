@@ -1,7 +1,7 @@
 import React from 'react';
-import {TitleH3} from "../titleH3/titleH3";
+import {TitleH3} from "../../../components/titleH3/titleH3";
 import styled from "styled-components";
-import Icons from "../../assets/images/icons-sprite.svg";
+import Icons from "../../../assets/images/icons-sprite.svg";
 
 
 type SkillsListType = {

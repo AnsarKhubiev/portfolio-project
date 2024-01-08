@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlexWrapper} from "../FlexWrapper";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 import styled from "styled-components";
 
 type PriceCardPropsType = {
